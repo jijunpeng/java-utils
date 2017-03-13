@@ -1,0 +1,4 @@
+rootProject.name = 'java-utils'
+include 'library'
+findProject(':library')?.name = 'java-utils'
+
